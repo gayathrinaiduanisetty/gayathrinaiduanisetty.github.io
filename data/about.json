@@ -1,0 +1,44 @@
+{
+  "heading": "ABOUT",
+  "paragraphs": [
+    {
+      "text": "AI/ML Engineer with 4+ years of experience developing machine learning, NLP, and Generative AI applications for enterprise analytics, intelligent search, and healthcare platforms. Skilled in Python, PyTorch, TensorFlow, LangChain, FastAPI, and OpenAI APIs for building RAG pipelines, transformer-based NLP models, semantic search systems, and real-time inference applications. Experienced with AWS, Docker, SageMaker, MLflow, Spark, Kafka, Pinecone, and FAISS for scalable deployment, model optimization, and distributed processing. Strong background integrating AI models into production environments, improving inference performance using ONNX and TensorRT, and implementing explainable AI frameworks using SHAP and LIME for reliable business-focused machine learning solutions.",
+      "highlights": []
+    },
+    {
+      "text": "Experienced ai/ml engineer with {yearsExp} of hands-on experience across {industries}.",
+      "highlights": [
+        {
+          "text": "2+ years",
+          "color": "yellow",
+          "key": "yearsExp"
+        },
+        {
+          "text": "healthcare, data analytics, analytics",
+          "color": "pink",
+          "key": "industries"
+        }
+      ]
+    },
+    {
+      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "highlights": [
+        {
+          "text": "technical expertise",
+          "color": "yellow",
+          "key": "blend1"
+        },
+        {
+          "text": "collaborative leadership",
+          "color": "green",
+          "key": "blend2"
+        },
+        {
+          "text": "building impactful solutions",
+          "color": "cyan",
+          "key": "blend3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "heading": "SKILLS",
+  "categories": [
+    {
+      "name": "Languages",
+      "icon": "fas fa-code",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "SQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "Java",
+          "icon": "fab fa-java"
+        },
+        {
+          "name": "Bash",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "fab fa-js"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "icon": "fas fa-layer-group",
+      "items": [
+        {
+          "name": "PyTorch",
+          "icon": "fas fa-brain"
+        },
+        {
+          "name": "TensorFlow",
+          "icon": "fas fa-brain"
+        },
+        {
+          "name": "Scikit-learn",
+          "icon": "fas fa-chart-bar"
+        },
+        {
+          "name": "XGBoost",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "LangChain",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Hugging Face Transformers",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "BERT",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "RoBERTa",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "PEFT",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "LoRA",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "FastAPI",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "Flask",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "PySpark",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Spark Structured Streaming",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-tools",
+      "items": [
+        {
+          "name": "OpenAI GPT-4",
+          "icon": "fas fa-robot"
+        },
+        {
+          "name": "Whisper API",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "OpenAI Embeddings",
+          "icon": "fas fa-robot"
+        },
+        {
+          "name": "Pinecone",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "FAISS",
+          "icon": "fas fa-robot"
+        },
+        {
+          "name": "MLflow",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Docker",
+          "icon": "fab fa-docker"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "fas fa-dharmachakra"
+        },
+        {
+          "name": "GitHub Actions",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Terraform",
+          "icon": "fas fa-code-branch"
+        },
+        {
+          "name": "AWS SageMaker",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "ONNX Runtime",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "TensorRT",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "AWS (S3, ECS, EC2, Lambda, CloudWatch)",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Apache Spark",
+          "icon": "fas fa-bolt"
+        },
+        {
+          "name": "Kafka",
+          "icon": "fas fa-stream"
+        },
+        {
+          "name": "Redis",
+          "icon": "fas fa-memory"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "MySQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "fas fa-leaf"
+        },
+        {
+          "name": "SHAP",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "LIME",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Guardrails AI",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Power BI",
+          "icon": "fas fa-chart-bar"
+        },
+        {
+          "name": "Tableau",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "name": "Git",
+          "icon": "fab fa-git-alt"
+        },
+        {
+          "name": "GitHub",
+          "icon": "fab fa-github"
+        },
+        {
+          "name": "Linux",
+          "icon": "fab fa-linux"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "icon": "fas fa-book-open"
+        },
+        {
+          "name": "VS Code",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Postman",
+          "icon": "fas fa-circle"
+        }
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-cogs",
+      "items": [
+        {
+          "name": "Machine Learning",
+          "icon": "fas fa-brain"
+        },
+        {
+          "name": "Deep Learning",
+          "icon": "fas fa-brain"
+        },
+        {
+          "name": "NLP",
+          "icon": "fas fa-language"
+        },
+        {
+          "name": "Predictive Modeling",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Feature Engineering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Model Training",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Classification",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Regression",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Transformer Models",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Generative AI",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "RAG Pipelines",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Prompt Engineering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Semantic Search",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Conversational AI",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Vector Search",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Embedding Models",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Enterprise Search",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Contextual Retrieval",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Model Deployment",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Experiment Tracking",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Inference Optimization",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Distributed Data Processing",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Explainable AI",
+          "icon": "fas fa-robot"
+        },
+        {
+          "name": "Prompt Evaluation",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Bias Detection",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Model Validation",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Hallucination Reduction",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "greeting": "Hi there!",
+  "name": "Gayathri Anisetty",
+  "description": "Based in OH, USA. AI/ML Engineer with 4+ years of experience developing machine learning, NLP, and Generative AI applications for enterprise analytics, intelligent search, and healthcare platforms.",
+  "tagline": "AI/ML Engineer",
+  "avatarUrl": "",
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/gayathrinaiduanisetty",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/gayathri-anisetty-315559229/",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:anisettygayathri302@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "techBadges": [
+    {
+      "icon": "fab fa-python",
+      "label": "Python"
+    },
+    {
+      "icon": "fas fa-database",
+      "label": "SQL"
+    },
+    {
+      "icon": "fab fa-java",
+      "label": "Java"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "Bash"
+    },
+    {
+      "icon": "fab fa-js",
+      "label": "JavaScript"
+    },
+    {
+      "icon": "fas fa-brain",
+      "label": "PyTorch"
+    },
+    {
+      "icon": "fas fa-brain",
+      "label": "TensorFlow"
+    },
+    {
+      "icon": "fas fa-chart-bar",
+      "label": "Scikit-learn"
+    }
+  ],
+  "terminalCommands": {
+    "about": {
+      "title": "About Me",
+      "content": "AI/ML Engineer with 2+ years of experience building scalable web applications.",
+      "highlights": [
+        "Working with Python",
+        "Working with SQL",
+        "Working with Java"
+      ]
+    },
+    "skills": [
+      "Python",
+      "SQL",
+      "Java",
+      "Bash",
+      "JavaScript",
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "XGBoost",
+      "LangChain",
+      "Hugging Face Transformers",
+      "BERT",
+      "RoBERTa",
+      "PEFT",
+      "LoRA",
+      "FastAPI"
+    ],
+    "experience": [
+      {
+        "company": "OpenAI",
+        "title": "AI/ML Engineer",
+        "period": "Jul 2025 – May 2026",
+        "location": ""
+      },
+      {
+        "company": "CitiusTech",
+        "title": "AI/ML Engineer",
+        "period": "Jun 2021 - Aug 2024",
+        "location": ""
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science",
+        "institution": "Cleveland State University",
+        "period": "May 2026"
+      }
+    ],
+    "contact": {
+      "email": "anisettygayathri302@gmail.com",
+      "website": "",
+      "github": "github.com/gayathrinaiduanisetty",
+      "linkedin": "https://www.linkedin.com/in/gayathri-anisetty-315559229/"
+    }
+  },
+  "terminalLines": [
+    "$ whoami",
+    "Gayathri Anisetty",
+    "$ cat role.txt",
+    "AI/ML Engineer",
+    "$ ls skills/",
+    "Python  SQL  Java  Bash  JavaScript"
+  ]
+}

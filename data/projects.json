@@ -1,0 +1,195 @@
+{
+  "heading": "Projects",
+  "projects": [
+    {
+      "name": "time-series-forecasting-python",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/time-series-forecasting-python",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/time-series-forecasting-python"
+    },
+    {
+      "name": "sentiment-analysis-webapp-sagemaker",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/sentiment-analysis-webapp-sagemaker",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/sentiment-analysis-webapp-sagemaker"
+    },
+    {
+      "name": "generating-synthetic-data-using-gans",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/generating-synthetic-data-using-gans",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/generating-synthetic-data-using-gans"
+    },
+    {
+      "name": "computer-vision-projects",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/computer-vision-projects",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/computer-vision-projects"
+    },
+    {
+      "name": "create-million-parameter-llm-from-scratch",
+      "description": "Hands-on learning experience with modern frameworks",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/create-million-parameter-llm-from-scratch",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/create-million-parameter-llm-from-scratch"
+    },
+    {
+      "name": "multi-agentic-rag",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/multi-agentic-rag",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/multi-agentic-rag"
+    },
+    {
+      "name": "mlops-app",
+      "description": "Hands-on learning experience with modern frameworks",
+      "technologies": [
+        "HCL",
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile",
+        "Shell"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/mlops-app",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/mlops-app"
+    },
+    {
+      "name": "Gayathri-..Anisetty",
+      "description": "About project",
+      "technologies": [
+        "JavaScript",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/Gayathri-..Anisetty",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/Gayathri-..Anisetty"
+    },
+    {
+      "name": "gayathri-anisetty",
+      "description": "about project",
+      "technologies": [
+        "JavaScript",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/gayathri-anisetty",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/gayathri-anisetty"
+    },
+    {
+      "name": "about-1oth-milestone",
+      "description": "milestone10",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/about-1oth-milestone",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/about-1oth-milestone"
+    },
+    {
+      "name": "milestone-10",
+      "description": "introduction",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/milestone-10",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/milestone-10"
+    },
+    {
+      "name": "milestone3",
+      "description": "to-do-list",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/milestone3",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/milestone3"
+    },
+    {
+      "name": "javascript-basicsss",
+      "description": "javascript basics",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/javascript-basicsss",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/javascript-basicsss"
+    },
+    {
+      "name": "protofile-introduction",
+      "description": "protofile",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/protofile-introduction",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/protofile-introduction"
+    },
+    {
+      "name": "box-model",
+      "description": "box",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/box-model",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/box-model"
+    },
+    {
+      "name": "javascript-fuctions-and-collections",
+      "description": "javascript collections",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/javascript-fuctions-and-collections",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/javascript-fuctions-and-collections"
+    },
+    {
+      "name": "javascript",
+      "description": "javascript introduction",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/javascript",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/javascript"
+    },
+    {
+      "name": "ordered-list",
+      "description": "about unordered and ordered list",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/ordered-list",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/ordered-list"
+    },
+    {
+      "name": "HTML-forms",
+      "description": "registration form",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/HTML-forms",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/HTML-forms"
+    },
+    {
+      "name": "html-file",
+      "description": "creation of image",
+      "technologies": [
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/gayathrinaiduanisetty/html-file",
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/html-file"
+    }
+  ]
+}
