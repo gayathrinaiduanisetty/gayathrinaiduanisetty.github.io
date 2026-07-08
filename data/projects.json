@@ -2,194 +2,71 @@
   "heading": "Projects",
   "projects": [
     {
-      "name": "time-series-forecasting-python",
-      "description": "Practice application demonstrating full-stack development skills",
+      "name": "Multi-Agent RAG System",
+      "description": "Agentic retrieval project focused on coordinating multiple AI agents for question answering over external knowledge sources.",
       "technologies": [
         "Python",
-        "HTML"
+        "LangChain",
+        "RAG",
+        "Vector Search"
       ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/time-series-forecasting-python",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/time-series-forecasting-python"
-    },
-    {
-      "name": "sentiment-analysis-webapp-sagemaker",
-      "description": "Learning project built with modern web technologies",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python",
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/sentiment-analysis-webapp-sagemaker",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/sentiment-analysis-webapp-sagemaker"
-    },
-    {
-      "name": "generating-synthetic-data-using-gans",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/generating-synthetic-data-using-gans",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/generating-synthetic-data-using-gans"
-    },
-    {
-      "name": "computer-vision-projects",
-      "description": "Practice repository for exploring advanced features",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/computer-vision-projects",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/computer-vision-projects"
-    },
-    {
-      "name": "create-million-parameter-llm-from-scratch",
-      "description": "Hands-on learning experience with modern frameworks",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/create-million-parameter-llm-from-scratch",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/create-million-parameter-llm-from-scratch"
-    },
-    {
-      "name": "multi-agentic-rag",
-      "description": "Comprehensive project exploring software design patterns",
-      "technologies": [
-        "Python"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/multi-agentic-rag",
       "githubUrl": "https://github.com/gayathrinaiduanisetty/multi-agentic-rag"
     },
     {
-      "name": "mlops-app",
-      "description": "Hands-on learning experience with modern frameworks",
+      "name": "MLOps Deployment App",
+      "description": "Machine learning operations project covering model packaging, infrastructure configuration, containerized deployment, and repeatable release workflows.",
       "technologies": [
-        "HCL",
         "Python",
-        "Jupyter Notebook",
-        "Dockerfile",
+        "Docker",
+        "Terraform",
+        "HCL",
         "Shell"
       ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/mlops-app",
       "githubUrl": "https://github.com/gayathrinaiduanisetty/mlops-app"
     },
     {
-      "name": "Gayathri-..Anisetty",
-      "description": "About project",
+      "name": "Sentiment Analysis on SageMaker",
+      "description": "NLP web application for sentiment classification with model development in notebooks and deployment-oriented SageMaker workflow structure.",
       "technologies": [
-        "JavaScript",
+        "Python",
+        "Jupyter Notebook",
+        "AWS SageMaker",
+        "NLP",
         "HTML"
       ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/Gayathri-..Anisetty",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/Gayathri-..Anisetty"
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/sentiment-analysis-webapp-sagemaker"
     },
     {
-      "name": "gayathri-anisetty",
-      "description": "about project",
+      "name": "Synthetic Data Generation with GANs",
+      "description": "Deep learning notebook project exploring generative adversarial networks for creating synthetic datasets and studying data augmentation workflows.",
       "technologies": [
-        "JavaScript",
-        "HTML"
+        "Jupyter Notebook",
+        "GANs",
+        "Deep Learning"
       ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/gayathri-anisetty",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/gayathri-anisetty"
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/generating-synthetic-data-using-gans"
     },
     {
-      "name": "about-1oth-milestone",
-      "description": "milestone10",
+      "name": "Time-Series Forecasting in Python",
+      "description": "Forecasting project applying Python-based data preparation, feature engineering, model training, and evaluation for sequential data.",
       "technologies": [
+        "Python",
+        "Time Series",
+        "Machine Learning",
         "HTML"
       ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/about-1oth-milestone",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/about-1oth-milestone"
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/time-series-forecasting-python"
     },
     {
-      "name": "milestone-10",
-      "description": "introduction",
+      "name": "Million-Parameter LLM from Scratch",
+      "description": "Foundational language-modeling project focused on building and training a compact transformer-style model to understand LLM internals.",
       "technologies": [
-        "HTML"
+        "Jupyter Notebook",
+        "Transformers",
+        "Language Modeling",
+        "Deep Learning"
       ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/milestone-10",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/milestone-10"
-    },
-    {
-      "name": "milestone3",
-      "description": "to-do-list",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/milestone3",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/milestone3"
-    },
-    {
-      "name": "javascript-basicsss",
-      "description": "javascript basics",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/javascript-basicsss",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/javascript-basicsss"
-    },
-    {
-      "name": "protofile-introduction",
-      "description": "protofile",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/protofile-introduction",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/protofile-introduction"
-    },
-    {
-      "name": "box-model",
-      "description": "box",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/box-model",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/box-model"
-    },
-    {
-      "name": "javascript-fuctions-and-collections",
-      "description": "javascript collections",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/javascript-fuctions-and-collections",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/javascript-fuctions-and-collections"
-    },
-    {
-      "name": "javascript",
-      "description": "javascript introduction",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/javascript",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/javascript"
-    },
-    {
-      "name": "ordered-list",
-      "description": "about unordered and ordered list",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/ordered-list",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/ordered-list"
-    },
-    {
-      "name": "HTML-forms",
-      "description": "registration form",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/HTML-forms",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/HTML-forms"
-    },
-    {
-      "name": "html-file",
-      "description": "creation of image",
-      "technologies": [
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/gayathrinaiduanisetty/html-file",
-      "githubUrl": "https://github.com/gayathrinaiduanisetty/html-file"
+      "githubUrl": "https://github.com/gayathrinaiduanisetty/create-million-parameter-llm-from-scratch"
     }
   ]
 }

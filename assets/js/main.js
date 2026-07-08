@@ -298,18 +298,36 @@
     if (!timelineList || !data.positions) return;
 
     timelineList.innerHTML = data.positions
-      .map(
-        (pos) => `
+      .map((pos) => {
+        const logoHtml =
+          pos.logo && pos.logo.src
+            ? `
+          <div class="company-logo company-logo-${normalizeLogoTheme(pos.logo.theme)}">
+            <img src="${escapeHtml(pos.logo.src)}" alt="${escapeHtml(pos.logo.alt || `${pos.company} logo`)}" loading="lazy" decoding="async">
+          </div>`
+            : `
+          <div class="company-logo company-logo-fallback" aria-hidden="true">${escapeHtml((pos.company || '?').trim().charAt(0).toUpperCase())}</div>`;
+        const locationHtml = pos.location
+          ? `<p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location)}</p>`
+          : '';
+
+        return `
       <div class="timeline-item-flat">
         <div class="timeline-dot"></div>
         <div class="timeline-content-flat">
-          <h4 class="timeline-title">${escapeHtml(pos.title)} @ ${escapeHtml(pos.company)}</h4>
-          <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
+          <div class="timeline-header-flat">
+            ${logoHtml}
+            <div class="timeline-heading-copy">
+              <h4 class="timeline-title">${escapeHtml(pos.title)}</h4>
+              <p class="timeline-company">${escapeHtml(pos.company)}</p>
+            </div>
+            <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
+          </div>
           <p class="timeline-description">${escapeHtml(pos.description)}</p>
-          <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location || '')}</p>
+          ${locationHtml}
         </div>
-      </div>`
-      )
+      </div>`;
+      })
       .join('');
   }
 
@@ -514,9 +532,33 @@
       { threshold: 0.1 }
     );
 
-    document.querySelectorAll('.section, .timeline-item, .skill-box').forEach((el) => {
+    document.querySelectorAll('.section, .timeline-item, .timeline-item-flat, .skill-box').forEach((el) => {
       observer.observe(el);
     });
+  }
+
+  function revealAnimatedContent(container) {
+    container.classList.add('fade-in');
+    container
+      .querySelectorAll('.timeline-item, .timeline-item-flat, .skill-box')
+      .forEach((el) => el.classList.add('fade-in'));
+  }
+
+  function initHashNavigation() {
+    const scrollToHashTarget = () => {
+      if (!window.location.hash) return;
+      const targetId = decodeURIComponent(window.location.hash.slice(1));
+      const target = targetId ? document.getElementById(targetId) : null;
+      if (!target) return;
+
+      revealAnimatedContent(target);
+      requestAnimationFrame(() => {
+        target.scrollIntoView({ block: 'start' });
+      });
+    };
+
+    scrollToHashTarget();
+    window.addEventListener('hashchange', scrollToHashTarget);
   }
 
   function initHighlightAnimations() {
@@ -810,6 +852,10 @@
     return div.innerHTML;
   }
 
+  function normalizeLogoTheme(theme) {
+    return theme === 'dark' ? 'dark' : 'light';
+  }
+
   // ======================================================================
   // INITIALIZATION
   // ======================================================================
@@ -839,6 +885,7 @@
       initThemeToggle();
       initHeroAnimations();
       initPaperTearParallax();
+      initHashNavigation();
     } catch (err) {
       console.error('Failed to load portfolio data:', err);
     }

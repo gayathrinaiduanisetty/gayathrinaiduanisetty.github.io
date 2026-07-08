@@ -12,6 +12,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 130px;
 }
 
 /* ---------- CSS Custom Properties ---------- */
@@ -463,6 +464,7 @@ body[data-theme="dark"] .page-wrapper {
 .section {
     opacity: 0;
     animation: none;
+    scroll-margin-top: 130px;
 }
 
 .section.fade-in {
@@ -866,6 +868,91 @@ body[data-theme="dark"] .page-wrapper {
     gap: 2rem;
 }
 
+.timeline-item-flat {
+    display: grid;
+    grid-template-columns: 16px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    opacity: 0;
+    animation: none;
+}
+
+.timeline-item-flat.fade-in {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.timeline-content-flat {
+    min-width: 0;
+    background: var(--white);
+    border: var(--border-width) solid var(--border);
+    box-shadow: 6px 6px 0 var(--border);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.timeline-content-flat:hover {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 0 var(--border);
+}
+
+.timeline-header-flat {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.company-logo {
+    width: 132px;
+    height: 72px;
+    min-width: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--white);
+    border: var(--border-width) solid var(--border);
+    box-shadow: 3px 3px 0 var(--border);
+}
+
+.company-logo-light {
+    background: #fff;
+}
+
+.company-logo-dark {
+    background: #083f63;
+}
+
+.company-logo img {
+    display: block;
+    width: 84%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.company-logo-fallback {
+    background: var(--cyan);
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+.timeline-heading-copy {
+    min-width: 0;
+}
+
+.timeline-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.timeline-content-flat .timeline-company {
+    margin-top: 0.25rem;
+}
+
 .timeline-item {
     display: flex;
     gap: 1.5rem;
@@ -897,7 +984,8 @@ body[data-theme="dark"] .page-wrapper {
     transition: all 0.2s ease;
 }
 
-.timeline-item:hover .timeline-dot {
+.timeline-item:hover .timeline-dot,
+.timeline-item-flat:hover .timeline-dot {
     background: var(--cyan);
     transform: scale(1.4);
 }
@@ -973,6 +1061,7 @@ body[data-theme="dark"] .page-wrapper {
     line-height: 1.7;
     margin-bottom: 1rem;
     color: var(--text);
+    white-space: pre-line;
 }
 
 .timeline-achievements {
@@ -1793,6 +1882,10 @@ body[data-theme="dark"] .highlight-green {
 
 /* ---------- Responsive: Mobile ---------- */
 @media (max-width: 768px) {
+    html {
+        scroll-padding-top: 110px;
+    }
+
     body {
         padding: 10px;
         overflow-x: hidden;
@@ -1876,6 +1969,10 @@ body[data-theme="dark"] .highlight-green {
         box-shadow: 4px 4px 0 var(--border);
     }
 
+    .section {
+        scroll-margin-top: 110px;
+    }
+
     .timeline-item { flex-direction: column; gap: 0.5rem; }
     .timeline-marker-col { flex-direction: row; gap: 0.75rem; }
     .timeline-line { width: auto; height: 3px; flex: 1; }
@@ -1883,6 +1980,37 @@ body[data-theme="dark"] .highlight-green {
     .timeline-card {
         box-shadow: 4px 4px 0 var(--border);
         padding: 1.5rem;
+    }
+
+    .timeline-item-flat {
+        grid-template-columns: 14px minmax(0, 1fr);
+        gap: 0.75rem;
+    }
+
+    .timeline-content-flat {
+        padding: 1rem;
+        box-shadow: 4px 4px 0 var(--border);
+    }
+
+    .timeline-header-flat {
+        grid-template-columns: 1fr;
+        align-items: start;
+        gap: 0.75rem;
+    }
+
+    .company-logo {
+        width: 112px;
+        height: 58px;
+        min-width: 112px;
+    }
+
+    .timeline-title {
+        font-size: 1.05rem;
+    }
+
+    .timeline-date {
+        justify-self: start;
+        white-space: normal;
     }
 
     .skills-grid {
